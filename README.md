@@ -58,7 +58,7 @@ install.packages(c(
 
 ### 3️ Run the App
 
-From inside the project folder in R:
+Open the file folder in R and run the app:
 
 ```r
 shiny::runApp()
