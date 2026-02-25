@@ -23,6 +23,10 @@ An automated dashboard designed to track, classify, and analyze neurodegeneratio
 * **Data Handling:** `jsonlite`, `xml2`, `httr`, `dplyr`
 
 ---
+## Project Background
+Developed by Sophia Qiu, a Data Science major at UC Santa Barbara.
+
+This project was created to streamline the literature review process for neurodegenerative diseases (Tauopathies, Alzheimer's, etc.). By automating the classification of study methodologies, researchers can quickly identify trends in specific technologies like Single-Cell RNA sequencing (scRNA-seq) or Whole Genome Sequencing (WGS) without manual sorting.
 
 ##  How to Use
 
