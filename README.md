@@ -1,43 +1,40 @@
-NeuroPublication Dashboard
-AI-Powered PubMed Research Classifier | R Shiny + Claude 3.5
+# NeuroPublication Dashboard
+### **AI-Powered PubMed Research Classifier | R Shiny + Claude 3.5**
+
 An automated dashboard designed to track, classify, and analyze neurodegeneration research (2020–2026). This tool bridges the gap between raw PubMed metadata and actionable research insights using Large Language Models (LLMs).
 
-Key Features
-Live PubMed Integration: Fetches real-time metadata (Titles, Abstracts, Authors) via NCBI E-utilities API.
+---
 
-AI Classification: Uses Claude 3.5 (Anthropic API) to categorize abstracts into 9 study types (e.g., Clinical, WGS, scRNA-seq).
+## Key Features
 
-Intelligent Fallback: Features a robust keyword-matching system when API keys are unavailable.
+* **Live PubMed Integration:** Fetches real-time metadata (Titles, Abstracts, Authors) via NCBI E-utilities API.
+* **AI Classification:** Uses **Claude 3.5 (Anthropic API)** to categorize abstracts into 9 study types (e.g., Clinical, WGS, scRNA-seq).
+* **Intelligent Fallback:** Features a robust keyword-matching system for classification when API keys are unavailable.
+* **Interactive UI:** Built with `shinydashboard` and custom **JavaScript** for row-level abstract expansion and seamless filtering.
+* **Export Ready:** Download filtered research datasets directly to CSV for downstream meta-analysis.
 
-Interactive UI: Built with shinydashboard and custom JavaScript for row-level abstract expansion and filtering.
+---
 
-Export Ready: Download filtered research datasets directly to CSV for meta-analysis.
+## Tech Stack
 
-Tech Stack
-Language: R (Shiny, Tidyverse, ShinyJS)
+* **Language:** R (Shiny, Tidyverse, ShinyJS)
+* **APIs:** Anthropic Claude (Haiku/Sonnet), PubMed E-utilities (RESTful)
+* **Web:** Custom CSS, HTML, JavaScript (DataTable Callbacks)
+* **Data Handling:** `jsonlite`, `xml2`, `httr`, `dplyr`
 
-APIs: Anthropic Claude (Haiku/Sonnet), PubMed E-utilities (RESTful)
+---
 
-Web: Custom CSS, HTML, JavaScript (DataTable Callbacks)
+## How to Use
 
-Data Handling: jsonlite, xml2, httr, dplyr
+### 1. Clone the Repo
+```bash
+git clone [https://github.com/qiusophia/NeuroPublication-Dashboard.git](https://github.com/qiusophia/NeuroPublication-Dashboard.git)
 
-How to Use
-Clone the Repo:
-
-Bash
-git clone https://github.com/qiusophia/NeuroPublication-Dashboard.git
-
-Install Dependencies:
-Open R and run:
-
-R
-install.packages(c("shiny", "shinydashboard", "shinyWidgets", "httr", "jsonlite", "xml2", "DT", "dplyr", "plotly", "shinycssloaders"))
-Run the App:
-
-R
+install.packages(c("shiny", "shinydashboard", "shinyWidgets", "httr", 
+                   "jsonlite", "xml2", "DT", "dplyr", "plotly", "shinycssloaders"))
 shiny::runApp()
-(Optional) Enter your Anthropic API Key in the "Settings" tab to enable live AI reasoning.
 
-Project Background
-This project was developed to streamline the literature review process for neurodegenerative diseases (Tauopathies, Alzheimer's, etc.). By automating the classification of study methodologies, researchers can quickly identify trends in specific technologies like Single-Cell RNA sequencing or Whole Genome Sequencing.
+## Project Background
+Developed by Sophia Qiu, a Data Science major at UC Santa Barbara.
+
+This project was created to streamline the literature review process for neurodegenerative diseases (Tauopathies, Alzheimer's, etc.). By automating the classification of study methodologies, researchers can quickly identify trends in specific technologies like Single-Cell RNA sequencing (scRNA-seq) or Whole Genome Sequencing (WGS) without manual sorting.
