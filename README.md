@@ -29,6 +29,8 @@ An automated dashboard designed to track, classify, and analyze neurodegeneratio
 Clone the Repo
 ```bash
 git clone [https://github.com/qiusophia/NeuroPublication-Dashboard.git](https://github.com/qiusophia/NeuroPublication-Dashboard.git)
+```bash
+
 
 Install in R
 install.packages(c("shiny", "shinydashboard", "shinyWidgets", "httr", 
