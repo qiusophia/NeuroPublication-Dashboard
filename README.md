@@ -30,8 +30,12 @@ An automated dashboard designed to track, classify, and analyze neurodegeneratio
 ```bash
 git clone [https://github.com/qiusophia/NeuroPublication-Dashboard.git](https://github.com/qiusophia/NeuroPublication-Dashboard.git)
 
+### 2. Install Dependencies
+Open R or RStudio and run:
+```bash
 install.packages(c("shiny", "shinydashboard", "shinyWidgets", "httr", 
-                   "jsonlite", "xml2", "DT", "dplyr", "plotly", "shinycssloaders"))
+                 "jsonlite", "xml2", "DT", "dplyr", "plotly", "shinycssloaders"))
+### 3. Run the App
 shiny::runApp()
 
 ## Project Background
