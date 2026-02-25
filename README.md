@@ -26,7 +26,7 @@ How to Use
 Clone the Repo:
 
 Bash
-git clone https://github.com/your-username/neuropub-dashboard.git
+git clone https://github.com/qiusophia/NeuroPublication-Dashboard.git
 
 Install Dependencies:
 Open R and run:
@@ -39,12 +39,5 @@ R
 shiny::runApp()
 (Optional) Enter your Anthropic API Key in the "Settings" tab to enable live AI reasoning.
 
-📊 Project Background
+Project Background
 This project was developed to streamline the literature review process for neurodegenerative diseases (Tauopathies, Alzheimer's, etc.). By automating the classification of study methodologies, researchers can quickly identify trends in specific technologies like Single-Cell RNA sequencing or Whole Genome Sequencing.
-
-Pro-Tips for your GitHub:
-Add a GIF or Screenshot: Take a screenshot of the dashboard and put it at the very top. Visuals get 10x more attention from recruiters.
-
-The Repository Description: Use this: "R Shiny dashboard utilizing the Claude API to classify neurodegeneration research abstracts from PubMed (2020-2026)."
-
-Topics/Tags: Add these to your repo: r-shiny, bioinformatics, nlp, pubmed-api, data-science, claude-ai.
