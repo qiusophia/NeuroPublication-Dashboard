@@ -3,6 +3,8 @@
 
 An automated dashboard designed to track, classify, and analyze neurodegeneration research (2020–2026). This tool bridges the gap between raw PubMed metadata and actionable research insights using Large Language Models (LLMs).
 
+Open it on Shinyapp: https://sophiaqiu.shinyapps.io/neuropublications/
+
 ---
 
 ## Key Features
@@ -28,7 +30,7 @@ Developed by Sophia Qiu, a Data Science major at UC Santa Barbara.
 
 This project was created to streamline the literature review process for neurodegenerative diseases (Tauopathies, Alzheimer's, etc.). By automating the classification of study methodologies, researchers can quickly identify trends in specific technologies like Single-Cell RNA sequencing (scRNA-seq) or Whole Genome Sequencing (WGS) without manual sorting.
 
-##  How to Use
+##  How to Use in R
 
 ### 1. Clone the Repository
 
